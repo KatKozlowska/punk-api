@@ -1,0 +1,27 @@
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border:solid black 2px;
+    width:300px;
+
+     
+    
+    
+    &__info{
+        border:solid black 3px;
+     flex-direction: column;
+        text-align: center;
+     width: 150px;
+     height: 220px;
+    }
+
+    &__img--img {
+       
+      
+        width:75px;
+        padding:10px;
+    }
+}
